@@ -115,7 +115,7 @@
 
 .navMobile a:hover svg > *,
 .navMobile button:hover svg > * {
-  fill: #fb1;
+  fill: 1;
 }
 
 .navMobile button {
