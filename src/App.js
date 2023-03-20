@@ -5,10 +5,10 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Login from './components/Login/Login';
 import { UserStorage } from './UserContext';
-
 import './styles/App.css';
 import User from './components/User/User';
 import ProtectedRoute from './components/Helper/ProtectedRoute';
+import Photo from './components/Photo/Photo';
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+            <Route path="foto/:id" element={<Photo />} />
           </Routes>
           <Footer />
         </UserStorage>

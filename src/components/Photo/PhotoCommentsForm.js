@@ -20,7 +20,10 @@ const PhotoCommentsForm = (props) => {
   }
 
   return (
-    <form className={style.form} onSubmit={handleSubmit}>
+    <form
+      className={`${style.form} ${props.single ? style.single : ''}`}
+      onSubmit={handleSubmit}
+    >
       <textarea
         className={style.textarea}
         value={comment}
