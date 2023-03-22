@@ -59,6 +59,10 @@ a {
   border-radius: 4px;
 }
 
+.VictoryContainer {
+  height: initial !important;
+}
+
 .container {
   max-width: 50rem;
   padding: 0 1rem;
